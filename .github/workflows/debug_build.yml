@@ -7,6 +7,9 @@ on:
   pull_request:
     branches:
       - master
+  watch:
+    types: [started]
+
 
 jobs:
   build:
